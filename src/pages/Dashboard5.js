@@ -105,7 +105,7 @@ function Dashboard() {
         }
     };
 
-    const backendURL = "http://192.168.151.162:5001"; 
+    const backendURL = "http://192.168.0.128:5001";
 
     const pollForFile = (utcStr) => {
         const filename = `merged_final_video_${utcStr}.mp4`;
