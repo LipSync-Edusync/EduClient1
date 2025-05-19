@@ -105,7 +105,7 @@ function Dashboard() {
         }
     };
 
-    const backendURL = "http://192.168.0.128:5001";
+    const backendURL = "http://oem-Precision-5820-Tower.local:5001";
 
     const pollForFile = (utcStr) => {
         const filename = `merged_final_video_${utcStr}.mp4`;
